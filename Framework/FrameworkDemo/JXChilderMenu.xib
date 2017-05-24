@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6246"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JXChilderMenu">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="GUa-mN-TZz">
+                    <rect key="frame" x="239" y="100" width="123" height="29"/>
+                    <segments>
+                        <segment title="First"/>
+                        <segment title="Second"/>
+                    </segments>
+                </segmentedControl>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="j8e-AE-g0C">
+                    <rect key="frame" x="241" y="137" width="118" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="114" id="is1-hJ-2aX"/>
+                        <constraint firstAttribute="width" constant="114" id="rYV-1x-4iM"/>
+                        <constraint firstAttribute="width" constant="114" id="tZS-pO-YaQ"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="is1-hJ-2aX"/>
+                            <exclude reference="tZS-pO-YaQ"/>
+                        </mask>
+                    </variation>
+                </slider>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lph-Vk-v6C">
+                    <rect key="frame" x="276" y="209" width="51" height="31"/>
+                </switch>
+                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="FII-Tj-7Av">
+                    <rect key="frame" x="147" y="211" width="94" height="29"/>
+                </stepper>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="j8e-AE-g0C" firstAttribute="trailing" secondItem="FII-Tj-7Av" secondAttribute="trailing" id="17Q-We-q2Q"/>
+                <constraint firstItem="FII-Tj-7Av" firstAttribute="top" secondItem="lph-Vk-v6C" secondAttribute="bottom" constant="-29" id="2s1-2E-Ze4"/>
+                <constraint firstItem="j8e-AE-g0C" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2xD-7D-NWy"/>
+                <constraint firstItem="GUa-mN-TZz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5EY-1x-eNa"/>
+                <constraint firstAttribute="bottom" secondItem="FII-Tj-7Av" secondAttribute="bottom" constant="360" id="7VT-Ts-ofh"/>
+                <constraint firstItem="lph-Vk-v6C" firstAttribute="top" secondItem="j8e-AE-g0C" secondAttribute="bottom" constant="42" id="BPT-Xk-ydb"/>
+                <constraint firstItem="j8e-AE-g0C" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="BYF-rF-uG5"/>
+                <constraint firstAttribute="trailing" secondItem="FII-Tj-7Av" secondAttribute="trailing" id="CpA-B5-exX"/>
+                <constraint firstItem="j8e-AE-g0C" firstAttribute="centerX" secondItem="lph-Vk-v6C" secondAttribute="centerX" id="DW0-6s-Hnp"/>
+                <constraint firstAttribute="trailing" secondItem="GUa-mN-TZz" secondAttribute="trailing" id="PSn-YC-gIU"/>
+                <constraint firstAttribute="trailing" secondItem="j8e-AE-g0C" secondAttribute="trailing" id="Vlv-mK-vyx"/>
+                <constraint firstItem="j8e-AE-g0C" firstAttribute="top" secondItem="GUa-mN-TZz" secondAttribute="bottom" constant="9" id="Xy8-NJ-3kE"/>
+                <constraint firstItem="FII-Tj-7Av" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="147" id="YfA-KZ-8O4"/>
+                <constraint firstItem="GUa-mN-TZz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="dTY-Ch-Jxn"/>
+                <constraint firstItem="j8e-AE-g0C" firstAttribute="centerX" secondItem="GUa-mN-TZz" secondAttribute="centerX" id="l9b-79-UOw"/>
+                <constraint firstItem="lph-Vk-v6C" firstAttribute="top" secondItem="j8e-AE-g0C" secondAttribute="bottom" constant="42" id="mFN-BK-UGO"/>
+                <constraint firstItem="j8e-AE-g0C" firstAttribute="centerX" secondItem="GUa-mN-TZz" secondAttribute="centerX" id="qJG-KB-Co5"/>
+                <constraint firstItem="j8e-AE-g0C" firstAttribute="top" secondItem="GUa-mN-TZz" secondAttribute="bottom" constant="9" id="rPf-0J-fJ2"/>
+                <constraint firstItem="FII-Tj-7Av" firstAttribute="top" secondItem="lph-Vk-v6C" secondAttribute="bottom" constant="-29" id="stG-Cr-Jji"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="CpA-B5-exX"/>
+                    <exclude reference="5EY-1x-eNa"/>
+                    <exclude reference="PSn-YC-gIU"/>
+                    <exclude reference="17Q-We-q2Q"/>
+                    <exclude reference="2xD-7D-NWy"/>
+                    <exclude reference="Vlv-mK-vyx"/>
+                    <exclude reference="qJG-KB-Co5"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

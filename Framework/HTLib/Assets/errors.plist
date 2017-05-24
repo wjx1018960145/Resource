@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>999999</key>
+	<string>系统异常</string>
+	<key>-1001</key>
+	<string>网络请求超时</string>
+	<key>-1004</key>
+	<string>网络连接异常</string>
+	<key>CLASS_NOT_FOUND</key>
+	<string>未找到相应类[{0}]</string>
+	<key>FILE_WRITE_FAILED</key>
+	<string>文件写入失败</string>
+	<key>FILE_DOWNLOAD_FAILED</key>
+	<string>文件下载失败</string>
+</dict>
+</plist>

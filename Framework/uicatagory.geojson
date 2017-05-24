@@ -1,0 +1,11 @@
+[
+ {"name":"二级菜单","children":[
+                            {"name":"基础组件","controllerNib":"JXChilderMenu"},
+                            {"name":"自定义高级组件","controllerClass":"JXCustomHigherUI"}
+ ]},
+ {"name":"二级菜单","children":[
+                            {"name":"网络请求","controllerClass":"JXHttpClientDemo"},
+                            {"name":"数据库","controllerClass":"PullRefreshTableViewController"},
+                            {"name":"加密解密","controllerClass":"PullRefreshTableViewController"}
+                            ]}
+ ]

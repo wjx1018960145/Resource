@@ -1,0 +1,9 @@
+[
+ {"id":0,"name":"主页","group":""},
+ {"id":1,"name":"菜单1","group":"", "controllerNib":"JXUIDemo"},
+ {"id":3,"name":"菜单2","group":"", "controllerNib":"UploadOrDownloadViewController"},
+ {"id":4,"name":"菜单3","group":"", "controllerNib":""},
+ {"id":100,"name":"菜单4","group":"", "controllerNib":"SettingViewController"}
+ 
+  
+  ]
